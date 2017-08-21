@@ -1,5 +1,32 @@
 .words-generator {
-	width: 80vw;
+	width: 96vw;
 	margin: auto;
-	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&__form{
+		display: flex;
+	}
+	&__number,
+	&__submit{
+		text-transform: uppercase;
+		border: none;
+		box-sizing: border-box;
+	}
+	&__number{
+		background-color: #fafafa;
+		box-shadow: 0 2px 0 #67c8b4;
+		border-radius: 5px 0 0 5px;
+		padding: 5px;
+	}
+	&__submit{
+		background-color: #59b2a0;
+		box-shadow: 0 2px 0 #4a9787;
+		border-radius: 0 5px 5px 0;
+		color: $body-color;
+	}
+	&__result{
+		margin: 20px 0 0;
+		font-size: 1.4rem;
+	}
 }

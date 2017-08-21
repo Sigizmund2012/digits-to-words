@@ -8,6 +8,7 @@ $body-color: #ffffff;
 body{
   background-color: $body-bg-color;
   color: $body-color;
+  word-wrap: break-word;
 }
 
 h1{
