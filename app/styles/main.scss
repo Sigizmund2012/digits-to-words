@@ -1,0 +1,19 @@
+/* Переменные */
+
+$body-bg-color: #74e1cb;
+$body-color: #ffffff;
+
+/* Общие стили */
+
+body{
+  background-color: $body-bg-color;
+  color: $body-color;
+}
+
+h1{
+  text-align: center;
+}
+
+/* Компоненты */
+
+@import "components/words-generator";
