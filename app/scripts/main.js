@@ -92,7 +92,7 @@
 
   for ( let number in data ){
     let div = document.createElement("li");
-    div.textContent = `${number}: ${data[number]}`;
+    div.textContent = `${number}: ${data[number].join(', ')}`;
     ulElement.appendChild(div);
   }
 
