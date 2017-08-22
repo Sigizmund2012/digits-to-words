@@ -1,3 +1,12 @@
+.description{
+	font-size: 1.4rem;
+	width: 96vw;
+	&__digits{
+		& > ul{
+			list-style-type: none;
+		}
+	}
+}
 .words-generator {
 	width: 96vw;
 	margin: auto;
